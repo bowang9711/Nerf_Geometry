@@ -1,0 +1,4 @@
+pts_x_max,pts_x_min,pts_y_max,pts_y_min,pts_z_max,pts_z_min
+2.1492 -2.16
+2.8124223 -1.5182219
+1.6236719 0.11325443

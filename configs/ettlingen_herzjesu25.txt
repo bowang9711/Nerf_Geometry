@@ -1,0 +1,29 @@
+model_name = model0_herzjesu-P25
+dataset_name = ettlingen_herzjesu-P25
+dataset_type = projectCV
+
+add_timestamp = True
+dir = ./
+data_dir = ./data
+out_dir = ./output
+trained_models_dir = ./output/models
+depth_map_dir = ./output/depth_maps
+rendered_view_dir = ./output/rendered_views
+log_dir = ./output/models/logs
+
+
+render_only = False
+no_batching = True
+
+use_viewdirs = True
+white_bkgd = False
+lrate_decay = 500
+
+N_samples = 64
+N_importance = 128
+N_rand = 1024
+
+precrop_iters = 500
+precrop_frac = 0.5
+
+half_res = False
